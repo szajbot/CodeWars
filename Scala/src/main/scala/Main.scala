@@ -1,8 +1,9 @@
 import solutions.Create_Phone_Number
+import solutions.Primes_In_Numbers
 
 object Main {
   def main(args: Array[String]): Unit = {
-    val phoneNumber = Create_Phone_Number.createPhoneNumber(List(5, 9, 6, 6, 8, 7, 8, 3, 5, 1))
+    val phoneNumber = Primes_In_Numbers.primesInNumbers(7775460)
     println(phoneNumber)
   }
 }
